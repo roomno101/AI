@@ -25,6 +25,17 @@ checkgrade(A):-
     A>=40,
     write("\n Fail"),!.
 
+ %output:-
+?- marks.
+
+ Enter the marks in CN : 20.
+
+ Enter the marks in DBMS : |: 60.
+
+ Enter the marks in AI : |: 50.
+Total Marks : 130
+Percentage : 43.333333333333336
+
 
 
 
