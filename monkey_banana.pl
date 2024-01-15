@@ -11,3 +11,12 @@ canget(state1,action,state2),canget(state2,write(Action)).
 canget(state2,partialplan).
 add(action,partialplan).
 add(X,L,[X|L]).
+
+%OutPut:-
+?- canget(state(atdoor,onfloor,atdoor,hasnot),plan).
+false.
+?- canget(state(middle,onbox,middle,hasnot),plan).
+false.
+?- canget(state(middle,onbox,middle,hasnot),p).
+false.
+
