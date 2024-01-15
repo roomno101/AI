@@ -8,4 +8,9 @@ sum(N,Sum):-
     Sum is ((N*(N-1))/2.0).
 
 
+%output:-
+?- sum.
+Enter the last number5.
 
+ The sum is : 10.0
+true.
