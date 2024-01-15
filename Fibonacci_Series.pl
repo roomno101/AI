@@ -9,3 +9,9 @@ N2 is N-2,
 fib(F1,N1),
 fib(F2,N2),
 F is F1+F2.
+
+%output-
+?- fib(F,10).
+F = 55 .
+?- fib(55,10).
+true. 
