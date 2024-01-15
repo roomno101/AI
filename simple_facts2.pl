@@ -7,6 +7,10 @@ gives(john,book,marry).
 plays(john,marry,footbal).
 plays(jane,jim,badminton).
 
-
+%output:-
+?- valuable(gold).
+true
+?- female(jim).
+false.
 
 
