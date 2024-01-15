@@ -21,4 +21,16 @@ fill(X,Y):- X<4,Y>3,write('3L jug overflowed'),nl.
 
 fill(X,Y):- X>=4,Y>=3,write('Both 3L & 4L jug overflowed').
 
+%output:-
+?- fill(0,4).
+Pour all water from 3-Gallon jug to 4-Gallon : (4 , 0)
+Pour water from 4-Gallon jug to 3-Gallon until it is full : ( 1, 3)
+Empty the 3-Gallon jug on ground : (1 , 0)
+Pour all the water from 4-Gallon jug to 3-Gallon : (0 , 1)
+Fill the 4-Gallon Jug : (4,1)
+Pour water from 4-Gallon jug to 3-Gallon until it is full : ( 2, 3)
+Empty the 3-Gallon jug on ground : (2 , 0)
+Goal State Reached...
+true
+
 
