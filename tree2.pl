@@ -11,3 +11,11 @@ parent(mill,mana).
 parent(mill,tiku).
 parent(kim,fiku).
 parent(kim,tiku).
+
+
+%output:-
+?- parent(kim,fiku).
+true.
+?- parent(tom,X).
+X = kit ;
+X = kat.
